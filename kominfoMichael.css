@@ -1,0 +1,77 @@
+body {
+    font-family: 'Manjari', sans-serif; /* Use Manjari font */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+.section h3 {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.photo-placeholder {
+    width: 100px;
+    height: 120px;
+    background-color: #ddd;
+    margin: 0 auto 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.data-section, .jobdesk-section, .social-section {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.data-section h4, .jobdesk-section h4 {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.data-section p, .jobdesk-section p {
+    font-size: 0.9em;
+    margin: 4px 0;
+}
+
+.data-section span, .jobdesk-section span {
+    font-weight: bold;
+}
+
+.social-section a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.social-section a:hover {
+    text-decoration: underline;
+}
