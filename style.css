@@ -1,0 +1,11 @@
+.berita-container {
+    background-color: #145283;
+    text-align: center;
+    padding: 10px;
+}
+
+.berita-title {
+    color: white;
+    font-size: medium;
+    font-weight: 500;
+}
