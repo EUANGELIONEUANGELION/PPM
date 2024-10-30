@@ -9,3 +9,8 @@
     font-size: large;
     font-weight: 600;
 }
+
+.small-image {
+    max-width: 150px; /* Atur ukuran sesuai kebutuhan */
+    margin: 0 auto; /* Untuk memusatkan gambar */
+}
